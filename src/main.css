@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* 
+        Button component styles 
+    */
+
+  .btn {
+    @apply font-semibold rounded-md flex items-center justify-center gap-1;
+  }
+
+  /* Color button styles */
+
+  .btn-text-primary {
+    @apply !bg-white text-primary hover:bg-primaryLight transition-all;
+  }
+
+  .btn-primary {
+    @apply !bg-primary text-white hover:bg-primaryDark transition-all;
+  }
+
+  .btn-primary-light {
+    @apply !bg-primaryLight text-primary hover:bg-primaryLightDark transition-all;
+  }
+
+  .btn-outline-primary {
+    @apply border-primaryLight border text-primary !bg-white hover:bg-primaryLight transition-all;
+  }
+
+  .btn-text-secondary {
+    @apply !bg-white text-secondary hover:bg-secondaryLight transition-all;
+  }
+
+  .btn-secondary {
+    @apply !bg-secondary text-white hover:bg-secondaryDark transition-all;
+  }
+
+  .btn-secondary-light {
+    @apply !bg-secondaryLight text-secondary hover:bg-secondaryLightDark transition-all;
+  }
+
+  .btn-outline-secondary {
+    @apply border-secondaryLight border text-secondary !bg-white hover:bg-secondaryLight transition-all;
+  }
+
+  .btn-text-danger {
+    @apply !bg-white text-danger hover:bg-dangerLight transition-all;
+  }
+
+  .btn-danger {
+    @apply !bg-danger text-white hover:bg-dangerDark transition-all;
+  }
+
+  .btn-danger-light {
+    @apply !bg-dangerLight text-danger hover:bg-dangerLightDark transition-all;
+  }
+
+  .btn-outline-danger {
+    @apply border-dangerLight border text-danger !bg-white hover:bg-dangerLight transition-all;
+  }
+  
+  .btn-text-default {
+    @apply !bg-white text-grayText hover:bg-default transition-all;
+  }
+
+  .btn-default {
+    @apply !bg-grayDefault text-grayText hover:bg-defaultDark transition-all;
+  }
+
+  .btn-outline-default {
+    @apply border-grayDefault border text-grayText !bg-white hover:bg-default transition-all;
+  }
+
+  /* Size style  */
+
+  .smaller {
+    @apply text-sm py-1 px-3;
+  }
+
+  .small {
+    @apply text-sm py-2 px-4;
+  }
+
+  .medium {
+    @apply text-base py-3 px-6;
+  }
+
+  .large {
+    @apply text-lg py-3.5 px-7;
+  }
+
+  /* 
+    Size text
+  */
+  .text-small {
+    @apply text-sm;
+  }
+
+  .text-medium {
+    @apply text-base;
+  }
+
+  .text-large {
+    @apply text-lg;
+  }
+
+  /* Title classes */
+  .title-h1 {
+    @apply text-6xl leading-normal;
+  }
+
+  .title-h2 {
+    @apply text-5xl leading-normal;
+  }
+
+  .title-h3 {
+    @apply text-4xl leading-normal;
+  }
+
+  .title-h4 {
+    @apply text-3xl leading-normal;
+  }
+
+  .title-h5 {
+    @apply text-2xl leading-normal;
+  }
+
+  .title-h6 {
+    @apply text-xl leading-normal;
+  }
+
+  /* Cards */
+  
+  /* Default card */
+  .card {
+    background-color: theme('colors.white');
+    color: theme('colors.black');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+  }
+  
+  /* Primay-card */
+  .card-primary {
+    background-color: theme('colors.primary');
+    color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+  }
+
+  /* Primay-light-card */
+  .card-primary-light {
+    background-color: theme('colors.primaryLight');
+    color: theme('colors.black');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+  }
+
+  /* Secondary-light-card */
+  .card-primary {
+    background-color: theme('colors.secondary');
+    color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+  }
+
+  /* Secondary-light-card */
+  .card-primary-light {
+    background-color: theme('colors.secondaryLight');
+    color: theme('colors.black');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+  }
+
+  /* Images */
+  
+  .image {
+    width: "auto";
+    height: "100%";
+  }
+}
+

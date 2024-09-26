@@ -1,0 +1,54 @@
+{
+  "version": "1.1.6",
+  "name": "@allegriakinzola/evirtus",
+  "description": "Components library for ged application",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build-lib": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allegriakinzola/evirtusComponents.git" 
+  },
+  "author": "Allegria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allegriakinzola/evirtusComponents/issues"
+  },
+  "homepage": "https://github.com/allegriakinzola/evirtusComponents#readme",
+  "dependencies": {
+    "@rollup/plugin-image": "^3.0.2",
+    "@storybook/addon-styling": "^1.3.0",
+    "install": "^0.13.0",
+    "npm": "^9.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/blocks": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-webpack5": "^7.0.22",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "prop-types": "^15.8.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svg": "^2.0.0",
+    "storybook": "^7.0.22",
+    "tailwindcss": "^3.4.1"
+  }
+}

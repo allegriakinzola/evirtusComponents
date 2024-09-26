@@ -1,0 +1,192 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx}"],
+  safelist: [
+    "btn-danger",
+    "btn-outline-danger",
+
+    "btn-primary",
+    "btn-outline-primary",
+    "btn-primary-light",
+
+    "fill-black",
+    "fill-white",
+    "fill-primary",
+    "fill-secondary",
+    "fill-primaryLight",
+    "fill-secondaryLight",
+
+    "btn-secondary",
+    "btn-secondary-light",
+    "btn-outline-secondary",
+
+    "btn-text-primary",
+    "btn-text-secondary",
+    "btn-text-default",
+
+    "btn-default",
+    "btn-outline-default",
+
+    "small",
+    "medium",
+    "large",
+
+    "text-small",
+    "text-medium",
+    "text-large",
+    "text-primary",
+    "text-secondary",
+    "text-white",
+    "text-grayDefault",
+
+    "font-bold",
+    "font-normal",
+    "font-semibold",
+
+    "title-h1",
+    "title-h2",
+    "title-h3",
+    "title-h4",
+    "title-h5",
+    "title-h6",
+
+    "bg-primary",
+    "bg-default",
+    "bg-secondary",
+    "bg-danger",
+    "bg-primaryLight",
+    "bg-defaultLight",
+    "bg-secondaryLight",
+    "bg-dangerLight",
+
+    "card",
+    "card-primary",
+
+    "p-1",
+    "p-2",
+    "p-3",
+    "p-4",
+
+    "text-3xl",
+    "text-4xl",
+    "text-5xl",
+    "text-6xl",
+
+    "text-semibold",
+
+    "w-0",
+    "w-0.5",
+    "w-1",
+    "w-1.5",
+    "w-2",
+    "w-2.5",
+    "w-3",
+    "w-3.5",
+    "w-4",
+    "w-5",
+    "w-6",
+    "w-7",
+    "w-8",
+    "w-9",
+    "w-10",
+    "w-11",
+    "w-12",
+    "w-14",
+    "w-16",
+    "w-20",
+    "w-24",
+    "w-28",
+    "w-32",
+    "w-36",
+    "w-40",
+    "w-44",
+    "w-48",
+    "w-52",
+    "w-56",
+    "w-60",
+    "w-64",
+    "w-72",
+    "w-80",
+    "w-96",
+    "w-auto",
+    "w-1/2",
+    "w-1/3",
+    "w-2/3",
+    "w-1/4",
+    "w-2/4",
+    "w-3/4",
+    "w-1/5",
+    "w-2/5",
+    "w-3/5",
+    "w-4/5",
+    "w-1/6",
+    "w-2/6",
+    "w-3/6",
+    "w-4/6",
+    "w-5/6",
+    "w-1/12",
+    "w-2/12",
+    "w-3/12",
+    "w-4/12",
+    "w-5/12",
+    "w-6/12",
+    "w-7/12",
+    "w-8/12",
+    "w-9/12",
+    "w-10/12",
+    "w-11/12",
+    "w-full",
+    "w-screen",
+    "w-min",
+    "w-max",
+    "w-fit",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#17418a",
+        primaryDark: "#002A7C",
+
+        primaryLight: "#A3CEEF",
+        primaryLightDark: "#7BB4E3",
+
+        secondary: "#db3832",
+        secondaryDark: "#a00000",
+
+        secondaryLight: "#e42e272e",
+        secondaryLightDark: "#D4D4D4",
+
+        danger: "orangered",
+        dangerDark: "#b13000",
+
+        dangerLight: "#ffede6",
+        dangerLightDark: "#ffaf92",
+
+        default: "#ECECEC",
+        defaultLight: "#ECECEC",
+        defaultDark: "#E6E6E6",
+
+        black: "#000",
+        white: "#FFF",
+
+        sidebarBg: "#DFE2DE",
+
+        grayDefault: "#E6E6E6",
+        grayText: "#595959",
+
+        backdrop: "#0000009c",
+
+        bgDefault: "#f1f2f2"
+      },
+      fontFamily: {
+        sans: ["Cooper Hewitt", "lato", "arial", "sans-serif"],
+      },
+      extend: {
+        borderRadius: {
+          lg: "10px",
+        },
+      },
+    },
+  },
+  plugins: [],
+};
