@@ -1,0 +1,33 @@
+
+> @allegriakinzola/evirtus@1.1.6 build-storybook
+> storybook build --output-dir=C:\Users\ALLEGRIA\AppData\Local\Temp\chromatic--4308-3eco6eq6Lwup
+
+@storybook/cli v7.6.17
+
+info => Cleaning outputDir: C:\Users\ALLEGRIA\AppData\Local\Temp\chromatic--4308-3eco6eq6Lwup
+info => Loading presets
+info => Building manager..
+info => Manager built (442 ms)
+info => Building preview..
+info => Compiling preview..
+info => Copying static files: D:\TFC\myComponents\node_modules\@storybook\manager\static at C:\Users\ALLEGRIA\AppData\Local\Temp\chromatic--4308-3eco6eq6Lwup\sb-common-assets
+info Addon-docs: using MDX2
+info => Using implicit CSS loaders
+info => Using default Webpack5 setup
+WARN No story files found for the specified pattern: src\**\*.mdx
+info => Preview built (26 s)
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   796.971eca39.iframe.bundle.js (678 KiB)
+WARN   463.4168b6ef.iframe.bundle.js (583 KiB)
+WARN   846.5f400779.iframe.bundle.js (735 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (807 KiB)
+WARN       runtime~main.9a2ebb3f.iframe.bundle.js
+WARN       846.5f400779.iframe.bundle.js
+WARN       main.b3af99cf.iframe.bundle.js
+WARN 
+info => Preview built (27 s)
+info => Output directory: C:\Users\ALLEGRIA\AppData\Local\Temp\chromatic--4308-3eco6eq6Lwup

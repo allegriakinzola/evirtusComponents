@@ -8,13 +8,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "chromatic": "npx chromatic --project-token=chpt_35d4eb05b0224c7"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/allegriakinzola/evirtusComponents.git" 
+    "url": "git+https://github.com/allegriakinzola/evirtusComponents.git"
   },
-  "author": "Allegria",
+  "author": {
+    "name": "Allegria"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/allegriakinzola/evirtusComponents/issues"
@@ -41,6 +44,7 @@
     "@storybook/react-webpack5": "^7.0.22",
     "@storybook/testing-library": "^0.0.14-next.2",
     "autoprefixer": "^10.4.14",
+    "chromatic": "^11.10.4",
     "postcss": "^8.4.24",
     "prop-types": "^15.8.1",
     "rollup": "^2.79.1",
